@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+
+# Vector store / generated data
+storage/faiss_index/
+storage/*.pkl
+storage/*.index
+
+# Raw personal documents (don't commit your own PDFs/notes)
+data/raw_docs/*
+!data/raw_docs/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.log
